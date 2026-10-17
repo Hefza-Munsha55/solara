@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOLARA | Premium Solar Plates</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================= COMPONENT: NAVBAR ================= -->
+  <header class="navbar">
+    <div class="container nav-flex">
+      <div class="logo"><div class="logo-mark"></div> SOLARA</div>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#technology">Technology</a>
+        <a href="#products">Products</a>
+        <a href="#reviews">Reviews</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn btn-dark" id="quoteBtn">Get Quote</button>
+        <button class="hamburger" id="hamburger">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= COMPONENT: HERO ================= -->
+  <section class="hero container">
+    <div class="hero-grid">
+      <div class="hero-left">
+        <div class="pill"><span class="pill-dot"></span> X-Series 450W Now Available</div>
+        <h1>Power your <br><span class="serif-italic">home with sun.</span></h1>
+        <p class="hero-desc">Elegant, high-efficiency solar plates made for Pakistan. Save up to 95% on bills with 25-year warranty.</p>
+        <div class="hero-btns">
+          <button class="btn btn-dark btn-large" id="calcBtn">Calculate Savings →</button>
+          <button class="btn btn-light btn-large" id="viewPlatesBtn">View Plates</button>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><h3>22.8%</h3><span>Peak Efficiency</span></div>
+          <div class="stat"><h3>12k+</h3><span>Homes Powered</span></div>
+          <div class="stat"><h3>25Y</h3><span>Warranty</span></div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="solar-card">
+          <img src="https://images.unsplash.com/photo-1558449028-b53a39d100fc?q=80&w=800" alt="solar plate">
+          <div class="solar-card-footer">
+            <div><strong>SOLARA Pro 450W</strong><p>Monocrystalline • IP68</p></div>
+            <div class="live-badge">● Live Output: 412W</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPONENT: FEATURES ================= -->
+  <section class="features container" id="technology">
+    <div class="section-title">
+      <h2>Engineered for extreme heat. <br>Designed for beautiful roofs.</h2>
+    </div>
+    <div class="features-grid">
+      <div class="f-card f-card-wide">
+        <div class="f-content"><h3>Works at 70°C</h3><p>No power loss even in Gujranwala's June heat. Anti-dust coating.</p></div>
+        <div class="f-icon">◍</div>
+      </div>
+      <div class="f-card"><h3>Smart App</h3><p>Track every watt from your mobile.</p><div class="app-preview">4.2 kWh Today</div></div>
+      <div class="f-card dark"><h3>0% Financing</h3><p> Easy installments of 6 months.</p><span>UBL • Meezan Bank</span></div>
+    </div>
+  </section>
+
+  <!-- ================= COMPONENT: PRODUCT LISTING ================= -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="products-head">
+        <h2>Select your power</h2>
+        <p>All plates include free installation & net-metering</p>
+      </div>
+      <div class="product-grid">
+        <article class="p-card">
+          <div class="p-tag">Starter</div>
+          <h3>Lite 300W</h3><p class="p-desc">Fans, Lights, Fridge</p>
+          <div class="p-price">Rs 42,000 <small>/plate</small></div>
+          <ul class="p-list"><li>✓ 18.5% Efficiency</li><li>✓ 12Y Warranty</li></ul>
+          <button class="btn btn-outline buy-btn">Details</button>
+        </article>
+        <article class="p-card popular">
+          <div class="p-tag popular-tag">Most Popular</div>
+          <h3>Pro 450W</h3><p class="p-desc">Full House + 1 AC</p>
+          <div class="p-price">Rs 58,500 <small>/plate</small></div>
+          <ul class="p-list"><li>✓ 22.8% Efficiency</li><li>✓ 25Y Warranty</li><li>✓ PERC Technology</li></ul>
+          <button class="btn btn-dark buy-btn" style="width:100%">Buy Now</button>
+        </article>
+        <article class="p-card">
+          <div class="p-tag">Business</div>
+          <h3>Max 600W</h3><p class="p-desc">Shops & Factories</p>
+          <div class="p-price">Rs 82,000 <small>/plate</small></div>
+          <ul class="p-list"><li>✓ 23.1% Efficiency</li><li>✓ 30Y Warranty</li></ul>
+          <button class="btn btn-outline buy-btn">Details</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPONENT: REVIEWS (for scroll demo) ================= -->
+  <section class="container" id="reviews" style="padding:60px 24px; text-align:center">
+    <h2 style="font-family:'Fraunces',serif; font-size:36px;">Trusted by 12k+ families</h2>
+
+  </section>
+
+  <!-- ================= COMPONENT: ORDER MODAL (Button Functionality) ================= -->
+  <div id="orderModal" class="modal">
+    <div class="modal-box">
+      <button id="closeModal" class="close-btn">✕</button>
+      <h2 id="modalName" style="font-family:'Fraunces',serif;">Pro 450W</h2>
+      <p id="modalPrice" style="font-weight:700; margin:8px 0;">Rs 58,500</p>
+      <p style="color:#7A7A7A; font-size:14px; margin-bottom:20px;">Free installation + net-metering included</p>
+      <input type="text" placeholder="Your Name" class="modal-input" id="cName">
+      <input type="tel" placeholder="WhatsApp Number" class="modal-input" id="cPhone">
+      <button class="btn btn-dark" style="width:100%; margin-top:12px;" id="confirmBtn">Confirm Order →</button>
+    </div>
+  </div>
+
+  <!-- ================= COMPONENT: FOOTER ================= -->
+  <footer class="footer container">
+    <p>© 2026 SOLARA Energy</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
