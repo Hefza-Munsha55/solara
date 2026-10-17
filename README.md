@@ -10,7 +10,7 @@
 ## Live Demo
 
 **Live URL:** [https://solara-seven-tau.vercel.app/](https://solara-seven-tau.vercel.app/) 
-**Video Demo:** Add your LinkedIn video link here
+**Video Demo:** https://lnkd.in/p/djvRNgt6
 
 ## Problem We Solve
 
