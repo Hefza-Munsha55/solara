@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-**Live URL:** `https://your-solara-link.vercel.app`  
+**Live URL:** [https://solara-seven-tau.vercel.app/](https://solara-seven-tau.vercel.app/) 
 **Video Demo:** Add your LinkedIn video link here
 
 ## Problem We Solve
