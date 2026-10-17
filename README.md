@@ -10,7 +10,9 @@
 ## Live Demo
 
 **Live URL:** [https://solara-seven-tau.vercel.app/](https://solara-seven-tau.vercel.app/) 
-**Video Demo:** https://lnkd.in/p/djvRNgt6
+**Mobile view:** https://lnkd.in/p/djvRNgt6
+**Desktop view:** https://lnkd.in/p/djvRNgt6
+**Tablet view:** https://lnkd.in/p/d8e9UtMQ
 
 ## Problem We Solve
 
