@@ -56,7 +56,7 @@ button { cursor: pointer; font-family: inherit; }
 .hero-stats h3 { font-family: 'Fraunces', serif; font-size: 26px;  }
 .hero-stats span { color: #7A7A7A; font-size: 13px; }
 .hero-right .solar-card { background: #fff; border-radius: 32px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.08); border: 1px solid #F2EFE8; }
-.solar-card img { width: 100%; height: 380px; object-fit: cover; display: block; padding-left:20px; padding-right:20px; }
+.solar-card img { width: 100%; height: 380px; object-fit: cover; display: block; padding-left:20px; padding-right:20px; padding-top: 20px; }
 .solar-card-footer { padding: 20px 24px; display: flex; justify-content: space-between; align-items: center; }
 .solar-card-footer p { font-size: 13px; color: #7A7A7A; }
 .live-badge { background: #E8F5E9; color: #2E7D32; padding: 6px 12px; border-radius: 100px; font-size: 12px; font-weight: 700; text-transform: uppercase; }
